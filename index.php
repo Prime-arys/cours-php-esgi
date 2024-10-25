@@ -18,6 +18,8 @@
 
     include 'data/produits.php';
 
+    include 'components/choix.php';
+
     foreach ($produits as $produit) {
         echo "Le sous-total pour le " . $produit['nom'] . " (" . $produit['quantite'] . ") est de " . sousPrixTotal($produit) . "€<br>";
     }

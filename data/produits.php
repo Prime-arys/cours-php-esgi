@@ -1,8 +1,8 @@
 <?php
 
-$produit1 = ["nom" => "Livre", "prix" => 15, "quantite" => 2];
-$produit2 = ["nom" => "Stylo", "prix" => 3, "quantite" => 5];
-$produit3 = ["nom" => "Sac", "prix" => 25, "quantite" => 1];
+$produit1 = ["nom" => "Livre", "prix" => 15, "quantite" => $_SESSION["quantite1"] ?? 0];
+$produit2 = ["nom" => "Stylo", "prix" => 3, "quantite" => $_SESSION["quantite2"] ?? 0];
+$produit3 = ["nom" => "Sac", "prix" => 25, "quantite" => $_SESSION["quantite3"] ?? 0];
 
 $produits = [$produit1, $produit2, $produit3];
 
