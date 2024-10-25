@@ -1,0 +1,13 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+    font-size: large;
+}
+
+table{
+    width: fit-content;
+}
+
+th, td{
+    border: solid 1px #414141;
+}
